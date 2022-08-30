@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+.MAin_Head{
+    display: flex;
+    flex-direction: row-reverse;
+    background: #8b4002e2;
+    height: 95vh;
+    box-shadow: 0 4px 8px 0 #843101c6, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.MAin_Head img{
+    width: 490px;
+    height: 470px;
+    /* border-radius: 15px  ; */
+    /* box-shadow: 4px 4px 2px 2px black; */
+    /* border-radius: 955px; */
+    display: block;
+    /* margin-right: 4em; */
+    margin-top: 5.5em;
+
+
+    
+}
+.main_image{
+  /* position: relative; */
+  padding: 0;
+  width: 400px;
+  max-width: 90vw;
+  /* margin: 25px auto; */
+  margin-right: 15em;
+  margin-left: 2em;
+}
+
+
+.MAin_Head_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-right: 2em;
+}
+.MAin_Head_content_span{
+  text-align: center;
+  
+  font-size: 48px;
+  font-weight:300;
+  margin-bottom: 0%;
+  color: #f7f5f5;
+  
+}
+.MAin_Head_content_name{
+  font-size: 58px;
+  font-family: 'IBM Plex Serif', serif;
+  margin-top: 0em;
+  color: #222222;
+  letter-spacing: 1px;
+
+ 
+
+}
+.MAin_Head_btn{
+  display: flex;
+  flex-direction: row;
+
+}
+.content{
+  margin-top: 10em;
+}
+.MAin_Head_btn1{
+  width: 180px;
+  height: 4em;
+  background: #353a4c;
+  border-color: #8b4002e2;
+  color: #fbf3f3;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+
+
+
+}
+.MAin_Head_btn2{
+  width: 150px;
+  height: 4em;
+  margin-left: 2em;
+  color: #222222;
+  border-color: #e8e6df;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'IBM Plex Serif', serif;
+  letter-spacing: 1px;
+}
+
+  

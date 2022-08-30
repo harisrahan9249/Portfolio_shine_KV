@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+.Navbar{
+    height: 3.5em;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* box-shadow: 9px 11px 8px rgb(138, 138, 138); */
+    /* border-style: outset; */
+    /* border-color: #16354D; */
+
+    /* margin-top: 2em; */
+    
+}
+.Links{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+.Link{
+    color: #0C151C
+
+    ; 
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+}
+.Link:hover{
+    color: #8b4002e2; 
+}
+.logo{
+    color: #d5c455;
+
+    font-size: 40px;
+    font-weight: 700;
+    width: 20%;
+    
+    margin-right: 6em;
+}
+.logo_name{
+    color: #384f13b0;
+    
+}
+.logo_name2{
+    margin-left: .2em;
+    letter-spacing: .1em;
+}

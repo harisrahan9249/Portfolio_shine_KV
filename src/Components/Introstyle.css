@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+.Intro_main{
+    background: rgb(37, 37, 56);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 120vh;
+    
+}
+.Intro_main_content{
+    font-family: 'IBM Plex Serif', serif;
+
+    margin-top: 20em;
+    width: 40%;
+    color: rgb(220, 228, 245);
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    justify-items: flex-start;
+    margin-left: 8em;
+}
+.Intro_main_number{
+    font-size: 7em;
+    font-weight: 600;
+    margin: 0%;
+}
+.Intro_main_text{
+
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .09em;
+
+   
+}
+.Intro_sub{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.Intro_sub_text{
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: bold;
+    color: rgb(220, 228, 245);
+    letter-spacing: .01em;
+    
+
+
+}
+.card_section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* flex-wrap: wrap; */
+
+    margin-top: .3em;
+}
+.card{
+    margin-left: 2.5em;
+    
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    background: #8b4002e2;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #121316, 0 6px 20px 0 rgba(9, 8, 8, 0.19);
+
+}
+.card_img{
+    margin: .9em;
+    width: 250px;
+    opacity: .4;
+    box-shadow: 0 4px 8px 0 #353a4c, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card_img:hover{
+    
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 #121212, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+    
+
+}
+
+.card_text{
+   
+    display: flex;
+    flex-direction: column;
+}
+.card_text_head{
+    margin: 0%;
+    color:rgb(220, 228, 245) ;
+    font-size: 14.5px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-left: .1em;
+}
+
+.card_text_content{
+    margin: 0%;
+    color:rgb(220, 228, 245) ;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-left: .1em;
+
+
+}
+.card_btn{
+    width: 9em;
+    margin-bottom: .9em;
+    background: #353a4c;
+    border-color: #8b4002e2;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:500;
+    color: #fbf3f3;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+.card_btn:hover{
+    width: 9em;
+    margin-bottom: .9em;
+    border-color: #353a4c;
+    background: #0d0d0de2;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:500;
+    color: #fbf3f3;
+    letter-spacing: 1px;
+
+
+}
+.card2{
+    margin-left: 7em;
+    width: 75.3%;
+    display: flex;
+    flex-direction: column;
+    background: #8b4002e2;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 #121316, 0 6px 20px 0 rgba(9, 8, 8, 0.19);
+    height: 17.3em;
+
+}
+.card2_img{
+    margin: .9em;
+    width: 250px;
+    height: 11em;
+    opacity: .4;
+    box-shadow: 0 4px 8px 0 #353a4c, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card2_img:hover{
+    
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 #121212, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+    
+
+}
+.card2_text{
+    display: flex;
+    flex-direction: column;
+
+}
+.card2_text_head{
+    margin: 0%;
+    color:rgb(220, 228, 245) ;
+    font-size: 14.5px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-left: .1em;
+}
+.card2_text_content{
+    margin: 0%;
+    color:rgb(220, 228, 245) ;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-left: .1em;
+
+}
+.card2_btn{
+    width: 9em;
+    margin-bottom: .9em;
+    background: #353a4c;
+    border-color: #8b4002e2;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:500;
+    color: #fbf3f3;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+
+}
+.card2_btn:hover{
+    width: 9em;
+    margin-bottom: .9em;
+    border-color: #353a4c;
+    background: #0d0d0de2;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:500;
+    color: #fbf3f3;
+    letter-spacing: 1px;
+
+
+}
+.card_section2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* flex-wrap: wrap; */
+
+    margin-top: 3em;
+}
+.card_img3{
+    margin: .9em;
+    width: 250px;
+    opacity: .4;
+    box-shadow: 0 4px 8px 0 #353a4c, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 11em;
+
+
+}
+.card_img3:hover{
+    
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 #121212, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+
+    
+
+}
