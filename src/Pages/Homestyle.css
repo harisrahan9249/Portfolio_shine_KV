@@ -3,9 +3,12 @@
 .MAin_Head{
     display: flex;
     flex-direction: row-reverse;
-    background: #8b4002e2;
+    background: #E8CEB3;
     height: 95vh;
-    box-shadow: 0 4px 8px 0 #843101c6, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 ); */
+     /* background: #dedfe3; */
+     margin-top: -2%;
+
 
 }
 .MAin_Head img{
@@ -16,19 +19,28 @@
     /* border-radius: 955px; */
     display: block;
     /* margin-right: 4em; */
-    margin-top: 5.5em;
+    margin-top: 0.5em;
 
 
     
 }
 .main_image{
-  /* position: relative; */
   padding: 0;
-  width: 400px;
+  width: 580px;
   max-width: 90vw;
   /* margin: 25px auto; */
-  margin-right: 15em;
-  margin-left: 2em;
+  margin-right: 5em;
+  margin-left: 0em;
+  box-shadow: 0 8px 12px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur( 14px );
+  -webkit-backdrop-filter: blur( 14px );
+  margin-top: 2.5em;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  height: 37em;
+  /* background: rgb(248, 244, 244); */
 }
 
 
@@ -45,14 +57,14 @@
   font-size: 48px;
   font-weight:300;
   margin-bottom: 0%;
-  color: #f7f5f5;
+  color: #39190C;
   
 }
 .MAin_Head_content_name{
   font-size: 58px;
   font-family: 'IBM Plex Serif', serif;
   margin-top: 0em;
-  color: #222222;
+  color: #39190C;
   letter-spacing: 1px;
 
  
@@ -71,25 +83,61 @@
   height: 4em;
   background: #353a4c;
   border-color: #8b4002e2;
-  color: #fbf3f3;
+  color: #ABBCBF;
   font-size: 14px;
   font-weight: bold;
   font-family: 'IBM Plex Serif', serif;
   letter-spacing: 1px;
+  cursor: pointer;
+  background: rgba( 237, 240, 248, 0.25 );
+box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 14px );
+-webkit-backdrop-filter: blur( 14px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
+
+}
+.MAin_Head_btn1:hover{
+  background: #babbbe;
+  color: #202C35;
 
 
 }
 .MAin_Head_btn2{
-  width: 150px;
-  height: 4em;
   margin-left: 2em;
-  color: #222222;
-  border-color: #e8e6df;
+  width: 180px;
+  height: 4em;
+  background: #353a4c;
+  border-color: #8b4002e2;
+  color: #ABBCBF;
   font-size: 14px;
   font-weight: bold;
   font-family: 'IBM Plex Serif', serif;
   letter-spacing: 1px;
+  cursor: pointer;
+  background: rgba( 237, 240, 248, 0.25 );
+box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 14px );
+-webkit-backdrop-filter: blur( 14px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
 }
+.MAin_Head_btn2:hover{
+  background: #babbbe;
+  color: #202C35;
+
+}
+.svg_foot{
+   color: #69290C ;
+  display: flex;
+  flex-direction: column;
 
   
+}
+.svg_foot_div{
+  padding: 2px;
+  background: #0099ff;
+  width: 100%;
+}

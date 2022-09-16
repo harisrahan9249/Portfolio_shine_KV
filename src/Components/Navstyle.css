@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 .Navbar{
     height: 3.5em;
-    
+    background: #202C35;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -20,17 +20,15 @@
     margin-top: 1em;
 }
 .Link{
-    color: #0C151C
-
-    ; 
+    color: #5F6E6E; 
     text-decoration: none;
     font-family: 'IBM Plex Serif', serif;
 }
 .Link:hover{
-    color: #8b4002e2; 
+    color: #ABBCBF; 
 }
 .logo{
-    color: #d5c455;
+    color: #ABBCBF;
 
     font-size: 40px;
     font-weight: 700;
@@ -39,10 +37,14 @@
     margin-right: 6em;
 }
 .logo_name{
-    color: #384f13b0;
+    color: #E8CEB3;
     
 }
 .logo_name2{
     margin-left: .2em;
     letter-spacing: .1em;
+}
+svg{
+    background: #E8CEB3;
+
 }
