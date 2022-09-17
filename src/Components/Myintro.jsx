@@ -1,6 +1,8 @@
 import React from 'react';
 import './Myintro.css';
 
+
+
 function Myintro() {
   return (
     <div className='Myintro'>
@@ -16,7 +18,7 @@ function Myintro() {
             <h3><span className='Myintro_content_text3'>Name</span><span className='Myintro_content_text4'>:</span><span className='Myintro_content_text5'>Karoth Valappil Shine</span></h3>
             <h3><span className='Myintro_content_text3'>Age</span><span className='Myintro_content_text6'>:</span><span className='Myintro_content_text5'>30</span></h3>
             <h3><span className='Myintro_content_text3'>Email</span><span className='Myintro_content_text4'>:</span><span className='Myintro_content_text7'>Shinekaroth@gmail.com</span></h3>
-            <button className='Myintro_content_btn'>Download CV</button>
+            <button className='Myintro_content_btn'><a href="./Cv/SHINE.pdf" download="SHINE.pdf">Download CV</a></button>
    
         </div>
       

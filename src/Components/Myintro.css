@@ -110,7 +110,14 @@
 }
 .Myintro_content_btn:hover{
     background: #171922;
+    /* cursor: pointer; */
+    color:#E8CEB3;
+
+}
+.Myintro_content a:hover{
+    /* background: #171922; */
     cursor: pointer;
+    color:#E8CEB3;
 
 }
 .Myintro_content_text7{

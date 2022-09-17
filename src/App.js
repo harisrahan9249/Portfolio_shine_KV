@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Experience from './Pages/Experience';
 import Services from './Pages/Services';
 import Footer from './Components/Footer';
+import Contact from './Components/Contact';
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
        <Route element={<About />} path='/about' />
        <Route element={<Experience />} path='/experience' />
        <Route element={<Services />} path='/services' />
+       <Route element={<Contact />} path='/Contact' />
       </Routes>
       <Footer />
      
