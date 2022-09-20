@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Intro from '../Components/Intro';
 import Myintro from '../Components/Myintro';
 import Serviceintro from '../Components/Serviceintro';
+import Smallsummery from '../Components/Smallsummery';
 
 
 function Home() {
@@ -48,6 +49,7 @@ function Home() {
       <Intro />
       <Myintro />
       <Serviceintro />
+      <Smallsummery />
       
       
 

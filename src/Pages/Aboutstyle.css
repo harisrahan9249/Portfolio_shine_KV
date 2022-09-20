@@ -1,0 +1,107 @@
+.About_main{
+    text-align: center;
+}
+.Profile_first{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.Profile_head{
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform:uppercase;
+    color: #202C35;
+    margin-top: 1em;
+    text-align: center;
+}
+.Profile_head2{
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform:uppercase;
+    color: #202C35;
+    margin-top: 2em;
+    text-align: center;
+}
+.Profile_text{
+    margin-top: 3em;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:300;
+    color: #39190C;
+    text-align: center;
+    margin-left: 1em;
+}
+.Profile_text2{
+    /* margin-top: 2em; */
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:300;
+    color: #39190C;
+    text-align: center;
+    margin-left: 6em;
+    align-items: center;
+
+}
+.Profile_img{
+    margin-top: 3em;
+    height: 37em;
+    margin-left: 7em;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    width: 1280px;
+    box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.Profile_img2{
+    margin-top: 3em;
+    height: 38em;
+    margin-left: 12em;
+    margin-right: 5em;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* justify-items: center; */
+    width: 1080px;
+    box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.Profile_img2 img{
+    width: 650px;
+    height: 450px;
+}
+.second_main{
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform:uppercase;
+    color: #202C35;
+    margin-top: 2em;
+    text-align: center;
+    
+
+}
+.second_section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2em;
+
+}
+.Profile2{
+    margin-left: 6em;
+}

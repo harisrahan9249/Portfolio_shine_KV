@@ -140,8 +140,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   margin-top: 2em;
   padding: 2px;
   background: #0099ff;
-  width: 100%;
+  /* width: 100%; */
 }
 svg{
   height: 19em;
+  width: 100%;
 }

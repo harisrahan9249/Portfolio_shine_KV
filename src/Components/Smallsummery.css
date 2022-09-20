@@ -1,0 +1,49 @@
+.Summery{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Summery_head{
+
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight:300;
+    color: #39190C;
+}
+.Summery_text{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #202C35;
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 4em;
+
+}
+.Summery_btn{
+    width: 120px;
+    height: 3em;
+    background: rgba( 237, 240, 248, 0.25 );
+    box-shadow: 0 8px 12px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+      color: #fbf3f3;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 3em;
+
+}
+.Summery_btn:hover{
+    background: #171922;
+    /* cursor: pointer; */
+    color:#E8CEB3;
+}
